@@ -1,0 +1,33 @@
+.battleship {
+    text-align: center;
+    margin: auto;
+    width: 420px;
+    color: aliceblue;
+}
+
+.label {
+    text-align: center;
+    font-weight: bold;
+}
+
+.game-board {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+ 
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+}
+
+.cell.ship {
+    background-color: #302d2d;
+}
+
+.cell:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
